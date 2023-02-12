@@ -5,7 +5,7 @@ const Header = () => {
         <div>
             {/* Navbar */}
             <section>
-            <div className="navbar  bg-neutral text-neutral-conten">
+            <div className="navbar  bg-neutral text-neutral-content">
   <div className="flex-1">
     <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
   </div>
@@ -29,7 +29,7 @@ const Header = () => {
             </section>
     {/* Hero Section */}
     <section>
-    <div className="hero min-h-screen" style={{ backgroundImage: `url("../../../assets/images/banner/5.jpg")` }}>
+    <div className="hero min-h-screen" >
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
