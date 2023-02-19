@@ -1,14 +1,16 @@
 import React from 'react';
-
+import icon from '../../assets/icons/Group 1.png'
 const Header = () => {
     return (
         <div>
             {/* Navbar */}
             <section>
-            <div className="navbar  bg-neutral text-neutral-content">
+            <div className="navbar  bg-base-100">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <a href='#' className="btn btn-ghost normal-case max-w-sm text-sm"> <img src= {icon} />  </a>
   </div>
+
+  
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1">
       <li><a>Item 1</a></li>
