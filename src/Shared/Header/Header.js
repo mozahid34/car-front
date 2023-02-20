@@ -1,5 +1,5 @@
 import React from 'react';
-import icon from '../../assets/icons/Group 1.png'
+import icon from '../../assets/icons/Group 2.png'
 const Header = () => {
     return (
         <div>

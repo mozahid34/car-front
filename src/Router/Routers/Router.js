@@ -1,4 +1,5 @@
 import About from "../../About/About";
+import LogIn from "../../Componets/LogIn/LogIn";
 import Home from "../../Home/Home";
 import Layout from "../../Layout/Layout";
 
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
         {
           path: '/',
           element: <Home></Home>
+        },
+        {
+          path: '/logIn',
+          element: <LogIn></LogIn>
         }
         
       ]
