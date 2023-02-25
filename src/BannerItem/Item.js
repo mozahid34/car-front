@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Item = ({slide}) => {
-    const { image, next, prev} = slide;
+    const { image, text, next, prev} = slide;
     
 
     return (
@@ -18,7 +18,7 @@ const Item = ({slide}) => {
    <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
    <div className=' w-1/3 text-white'>
      <h1 className='text-6xl'>Affordable Price For Car Servicing</h1>
-     <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
+     <p>{text}</p>
      <button className="btn btn-error">Discover More</button>
      <button className="btn btn-outline ml-2">Latest Project</button>
    </div>
